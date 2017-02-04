@@ -100,8 +100,8 @@ aproba@^1.0.3:
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.0.4.tgz#2713680775e7614c8ba186c065d4e2e52d1072c0"
 
 arc-dropdown:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/arc-dropdown/-/arc-dropdown-1.0.4.tgz#4c5e06b976e8080a938f1aeccce91fa2675ce46a"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/arc-dropdown/-/arc-dropdown-1.0.5.tgz#d7bd06c22dec150df89ebea9c40382834407f9c0"
   dependencies:
     classnames "^2.2.5"
     keycode "^2.1.8"

@@ -28,15 +28,6 @@ class HomePage extends React.Component {
     return (
       <Layout className={s.content}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <h4>Articles</h4>
-        <ArcDropdown value={0}>
-          <ArcDropdownListItem value={0} text="One" />
-          <ArcDropdownListItem value={1} text="Two" />
-          <ArcDropdownListItem value={2} text="Three" />
-        </ArcDropdown>
-        <p>
-          <br /><br />
-        </p>
       </Layout>
     );
   }
