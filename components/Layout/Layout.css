@@ -13,3 +13,7 @@
   max-width: 1000px;
   width: 100%;
 }
+.main{
+  display : flex;
+  flex-direction : column;
+}

@@ -34,11 +34,6 @@ class HomePage extends React.Component {
           <ArcDropdownListItem value={1} text="Two" />
           <ArcDropdownListItem value={2} text="Three" />
         </ArcDropdown>
-        <ul>
-          {this.props.articles.map((article, i) =>
-            <li key={i}><a href={article.url}>{article.title}</a> by {article.author}</li>
-          )}
-        </ul>
         <p>
           <br /><br />
         </p>
