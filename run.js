@@ -153,7 +153,9 @@ tasks.set('start', () => {
 tasks.set('gh-pages', () => {
   const ghpages = require('gh-pages');
   const path = require('path');
-  ghpages.publish(path.join(__dirname, 'public'), (err) => {
+  ghpages.publish(path.join(__dirname, 'public'), {
+    branch: 'master',
+  }, (err) => {
     console.log(err);
   });
 });
